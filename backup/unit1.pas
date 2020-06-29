@@ -15,6 +15,7 @@ type
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
+    Button4: TButton;
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
@@ -27,6 +28,7 @@ type
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
     procedure Edit4Change(Sender: TObject);
   private
 
@@ -68,6 +70,11 @@ end;
 procedure TForm1.Button3Click(Sender: TObject);
 begin
   label5.caption:='Пестов Данил(ИР1930)';
+end;
+
+procedure TForm1.Button4Click(Sender: TObject);
+begin
+  close;
 end;
 
 procedure TForm1.Edit4Change(Sender: TObject);

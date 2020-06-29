@@ -162,13 +162,4 @@ object Form1: TForm1
     ReadOnly = True
     TabOrder = 6
   end
-  object Button4: TButton
-    Left = 167
-    Height = 25
-    Top = 272
-    Width = 75
-    Caption = 'Button4'
-    OnClick = Button4Click
-    TabOrder = 7
-  end
 end
